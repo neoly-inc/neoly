@@ -1,0 +1,30 @@
+name: 💬 General feedback
+description: Share thoughts, usability feedback, or ideas
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This space is for general feedback about **Neoly** —
+        UX, performance, clarity, or overall experience.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: What’s working well? What could be better?
+      placeholder: I really like..., but I find it confusing when...
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system (optional)
+      placeholder: macOS / Windows / Linux
+
+  - type: input
+    id: version
+    attributes:
+      label: Neoly app version (optional)

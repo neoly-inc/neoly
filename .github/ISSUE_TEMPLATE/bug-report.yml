@@ -1,0 +1,44 @@
+name: Bug report
+description: Something isn’t working as expected
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug in **Neoly** 🧠  
+        Please fill out the details below so we can reproduce and fix it quickly.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the issue you encountered.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Neoly
+        2. Click on ...
+        3. Run ...
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS / Windows / Linux
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Neoly app version
+      placeholder: e.g. v1.0.3
