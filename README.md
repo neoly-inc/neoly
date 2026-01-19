@@ -1,18 +1,17 @@
 # Neoly
 
-Public tracker for Neoly user feedback, bugs, feature requests, and enhancements.
+Public tracker for **Neoly** user feedback, bug reports, and feature requests.
 
 ## Create an issue
-Please include:
-- **What happened** (or what you want to improve)
-- **Steps to reproduce** (if it’s a bug)
-- **Expected vs actual**
-- **OS + app version** (and screenshots/logs if helpful)
 
-**Open a new issue:** https://github.com/neoly-inc/neoly/issues/new
+Use the issue templates to report bugs, request features, or share feedback.  
+Each template will guide you to provide the right details.
 
-## Quick tips
-- Search existing issues first to avoid duplicates.
-- One issue per topic is easiest to track.
+👉 **Open a new issue:**  
+https://github.com/neoly-inc/neoly/issues/new
 
-Thanks for helping us improve Neoly.
+## Tips
+- Search existing issues to avoid duplicates
+- One issue per topic makes tracking easier
+
+Thanks for helping improve Neoly 🚀
